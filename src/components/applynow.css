@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#main{
+    position: relative;
+    background-color: rgba(246, 250, 255, 1);
+}
+.container{
+    /* padding: 23px; */
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* margin-top: 20px; */
+}
+.btn-1{
+    width: 45%;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 16px;
+    border: 1px solid rgba(53, 131, 246, 1);
+    padding: 12px;
+    font: Poppins;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-1 img{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 1.2%;
+    left: 22%;
+}
+.btn-2{
+    width: 45%;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    padding: 12px;
+    font:Poppins;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn-2 img{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 1.2%;
+    left: 67%;
+}
+.color{
+    display: flex;
+    background-color: rgba(232, 241, 255, 1);
+    width: 90%;
+    height: 200px;
+    margin:auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0px 9px; */
+}
+.color::after {
+    content: "";
+    position: fixed;
+    top: 35.6%;
+    /* left: 5%; */
+    width: 90%;
+    height: 10px;
+    background: linear-gradient(to right,rgba(53, 131, 246, 1), rgba(38, 179, 87, 1));
+    /* border-radius: 6px; */
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.arrow-img{
+    position: absolute;
+    top:10% ;
+    left: 52.5%;
+}
+.h2{
+    margin: 60px 0px 0px 70px;
+    color: rgba(55, 55, 55, 1);
+    font: Poppins;
+    font-weight: 600;
+    font-size: 32px;
+}
+.color-para{
+    margin: 20px 0px 0px 130px;
+    line-height: 0;
+    font: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(16, 16, 16, 1);
+}
+.frame-img{
+    position: relative;
+    top: -2%;
+    left: 90%;
+    width: 246px;
+    height: 240px;
+}
+.apply-color{
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 31px;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.apply-color h2{
+    font: 'Poppins';
+    font-weight: 600;
+    padding: 21px;
+    margin-left: 16px;
+    color: rgba(55, 55, 55, 1);
+}
+.two-containers{
+    display: flex;
+    margin: 20px 0px 50px 30px;
+    gap: 30px;
+}
+.two-inside{
+    border: 1px solid rgba(166, 169, 172, 0.7);
+    border-radius: 16px;
+    padding: 12px;
+}
+.group-1{
+    width: 57px;
+    height: 57px;
+}
+.group-2{
+    width: 57px;
+    height: 57px;
+}
+.profile-1{
+    position: absolute;
+    left: 19%;
+    width: 19px;
+    height: 19px;
+}
+.profile-2{
+    position: absolute;
+    left: 42%;
+    width: 19px;
+    height: 19px;
+}
+.apply221{
+    position: absolute;
+    left: 21%;
+    margin: 0px 0px 0px 80p ;
+}
+.apply222{
+    position:absolute;
+    left: 44%;
+}
+.full-time{
+    width: 62px;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px 0px 5px 0px;
+    color:rgba(0, 0, 0, 1);
+    background-color: rgba(219, 234, 255, 1);
+}
+.react-native{
+    font: 16px;
+    font-weight: 600;
+    font:Poppins;
+}
+.price{
+    font: Poppins;
+    font-weight: 500;
+    color: rgba(16, 16, 16, 1);
+}
+.monthly{
+    color: rgba(155, 155, 155, 1);
+}
+.button-box{
+}
+.apply-now{
+    margin: 25px 0px 5px 0px ;
+    color:rgba(255, 255, 255, 1);
+    background-color: rgba(53, 131, 246, 1) ;
+    border: 1px solid 
+    rgba(53, 131, 246, 1);
+    font: Poppins;
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 18px;
+    cursor: pointer;
+    width: 137px;
+}
+.view-details{
+    color:rgba(16, 16, 16, 1);
+    background-color :rgba(255, 255, 255, 1) ;
+    border: 1px solid rgba(110, 110, 110, 1);
+    padding: 8px;
+    font-weight: 600;
+    border-radius: 18px;
+    cursor: pointer;
+    width: 137px;
+    margin-left: 10px;
+}
+
